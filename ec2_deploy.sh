@@ -1,0 +1,1 @@
+ aws cloudformation deploy --stack-name test-ec2-stack --template-file ec2_create.yml --parameter-overrides KeyName=AWS_Practice_Key EnvironmentName=test
